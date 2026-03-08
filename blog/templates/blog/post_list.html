@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog</title>
+</head>
+<body>
+<h1>Liste des posts</h1>
+{% for post in posts %}
+    <h2>{{ post.title }}</h2>
+    <p>{{ post.text }}</p>
+{% empty %}
+    <p>Aucun post disponible.</p>
+{% endfor %}
+</body>
+</html>
