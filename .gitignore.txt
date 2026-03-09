@@ -1,9 +1,9 @@
 # Python
 *.pyc
 *~
-__pycache__
+__pycache__/
 
-# Env
+# Virtual environments
 .env
 myvenv/
 venv/
@@ -26,7 +26,10 @@ ehthumbs*.db
 [Dd]esktop.ini
 $RECYCLE.BIN/
 
-# Visual Studio
+# Visual Studio / VS Code
 .vscode/
 .history/
 *.code-workspace
+
+# PythonAnywhere logs (optionnel)
+*.log
